@@ -1,6 +1,6 @@
 # JIRAJUnit4TestListener for JUnit4
 
-JIRAJUnit4TestListener for JUnit4 is a Java library for creating proper artifact for Jenkins plugin.
+JIRAJUnit4TestListener for JUnit4 is a Java library for creating proper artifact for Jenkins plugin.Required JAVA 8 or higher.
 
 ## Installation
 Add rows below in pom.xml file
@@ -72,7 +72,7 @@ Plugin provides next way of mapping:
 ```
 + Attachment
 
-   To add attachment use static method addAttachment() in JIRAAttachment class, which takes two parametrs - the first one is ```File``` object and the second is a ```String``` which should contain a JIRA ticket. After the testing procces all attachments is going to be mapped to the proper JIRA tickets and added to testresult.xml file.
+   To add attachment use static method``` addAttachment()``` in ```JIRAAttachment``` class, which takes two parametrs - the first one is ```File``` object and the second is a ```String``` which should contain a JIRA ticket. After the testing procces all attachments is going to be mapped to the proper JIRA tickets and added to testresult.xml file.
     Too add attachment to the JIRA ticket add row bellow:
 ```java
 ....
