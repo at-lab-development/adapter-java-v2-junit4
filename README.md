@@ -97,4 +97,5 @@ Also, do not forget to correct the following strings into ```pox.xml``` file if 
 <repositoryName>adapter-java-v2-junit4</repositoryName>
 <repositoryOwner>at-lab-development</repositoryOwner>
 ```
-**NOT SUPPORTED MULTITHREADING**
+**NOT SUPPORTED MULTITHREADING
+This library include in ```pox.xml``` file JUnit4 dependency with scope marked as provided. That could cause some vulnerabilities**
