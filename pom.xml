@@ -16,8 +16,8 @@
 
     <repositories>
         <repository>
-            <id>adapter-jira-core-mvn-repo</id>
-            <url>https://raw.github.com/Yauhenda/adapter-java-core/mvn-repo</url>
+            <id>adapter-java-v2-core-mvn-repo</id>
+            <url>https://raw.github.com/at-lab-development/adapter-java-v2-core/mvn-repo</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -75,8 +75,8 @@
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>JIraJunit4</repositoryName>
-                    <repositoryOwner>EDbarvinsky</repositoryOwner>
+                    <repositoryName>adapter-java-v2-junit4</repositoryName>
+                    <repositoryOwner>at-lab-development</repositoryOwner>
                 </configuration>
                 <executions>
                     <execution>
